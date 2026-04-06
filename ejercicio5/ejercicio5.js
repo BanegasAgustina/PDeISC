@@ -12,8 +12,8 @@ const server = createServer((req, res) => {
     titulo: 'Ejercicio 5',
     operaciones: [
       { operacion: '5 + 3', resultado: sumar(5, 3) },
-      { operacion: '3 - 6', resultado: restar(3, 6) },
-      { operacion: '2 × 7', resultado: multiplicar(2, 7) },
+      { operacion: '8 - 6', resultado: restar(8, 6) },
+      { operacion: '3 × 11', resultado: multiplicar(3, 11) },
       { operacion: '30 ÷ 5', resultado: division(30, 5) }
     ]
   };
