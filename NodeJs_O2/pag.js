@@ -29,10 +29,10 @@ const server = http.createServer((req, res) => {
             const b = 5;
             contenido = `
                 <h1>Calculadora</h1>
-                <p>Suma 5 + 3: ${sumar(a, b)}</p>
-                <p>Resta  8 - 6: ${restar(a, b)}</p>
-                <p>Multiplicación 3 * 11: ${multiplicar(a, b)}</p>
-                <p>División 30/5: ${division(a, b)}</p>
+                <p>Suma 10+ 5: ${sumar(a, b)}</p>
+                <p>Resta  10 - 5: ${restar(a, b)}</p>
+                <p>Multiplicación 10* 5: ${multiplicar(a, b)}</p>
+                <p>División 10/5: ${division(a, b)}</p>
             `;
             break;
 
